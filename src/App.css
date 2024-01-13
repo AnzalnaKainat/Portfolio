@@ -439,6 +439,14 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.icon a{
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+
+}
 .newsletter-bx {
   background: #F1EAFF;
   border-radius: 55px;
