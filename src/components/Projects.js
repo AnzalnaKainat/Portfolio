@@ -50,7 +50,7 @@ export const Projects = () => {
       category: "Front-End",
       description: "Design & Development",
       imgUrl: RestaurantReservation,
-      link: "https://restaurant-reservation-website-ectd2ypwp.vercel.app/",
+      link: "https://restaurant-reservation-website-orpin.vercel.app/",
     },
     {
       title: "Fitness Coaching Service Website",
@@ -121,8 +121,7 @@ export const Projects = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                               >
-                                {" "}
-                                {/* Add this anchor tag */}
+                           
                                 <ProjectCard {...project} />
                               </a>
                             </Col>
@@ -139,8 +138,8 @@ export const Projects = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                               >
-                                {" "}
-                                {/* Add this anchor tag */}
+                             
+
                                 <ProjectCard {...project} />
                               </a>
                             </Col>

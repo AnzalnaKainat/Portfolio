@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Col } from "react-bootstrap";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -55,7 +55,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to our portfolio</span>
-                <h1>{`Hi! We are`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "UI/UX Engineer", "Front-End Developer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! We are `}<span>{text}</span></h1>
                   <p>We are Anzalna Kainat & Maha Qunoot, a proficient duo dedicated to elevating digital experiences. Specializing in UI/UX design and front-end development, we seamlessly integrate aesthetics and functionality. With a foundation in Computer Science, we're poised to transform your concepts into polished, user-centric interfaces.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
