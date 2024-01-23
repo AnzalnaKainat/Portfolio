@@ -69,10 +69,10 @@ export const Contact = () => {
                       <button type="submit"><span>{buttonText}</span></button>
                     </Col>
                     {
-                      status.message &&
-                      <Col>
+                      
+                      <Row>
                         <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
-                      </Col>
+                      </Row>
                     }
                   </Row>
                 </form>

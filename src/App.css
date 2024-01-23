@@ -315,6 +315,12 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   letter-spacing: 0.8px;
   color: #333;
 }
+@media (max-width: 770px) {
+	.proj-imgbx {
+    width: 150%;
+   margin: 0px 50px;
+  }
+}
 
 /************ Projects Css ************/
 .contact {
